@@ -1,4 +1,4 @@
-class Solution {
+public class IndexSearch {
     public int searchInsert(int[] nums, int target) {
         int left = 0;
         int right = nums.length - 1;
@@ -19,7 +19,7 @@ class Solution {
     }
 }
 
-public class Runner {
+public class BinaryIndexSearch {
     public static void main(String[] args) {
         int[] nums = {1, 3, 5, 6};
         int target = 5;
